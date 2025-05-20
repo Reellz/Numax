@@ -1,0 +1,151 @@
+/* === Base Reset and Fonts === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a; /* Dark background */
+  color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+/* === Header and Navigation === */
+header {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #6a0dad; /* Deep purple */
+}
+
+.nav-title {
+  color: #f9c000;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #f4f4f4;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav li a:hover {
+  color: #f9c000;
+}
+
+/* === Titles === */
+.title-element {
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 30px 0 20px;
+  color: #f9c000;
+}
+
+/* === Main Content === */
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+p {
+  margin: 15px 0;
+  font-size: 1.1rem;
+}
+
+.head-intro {
+  text-align: center;
+}
+
+ul, ol {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+ul li, ol li {
+  margin-bottom: 10px;
+}
+
+/* === Genres Section === */
+.genres {
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.genres ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.genres ul li a {
+  color: #c4a3ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.genres ul li a:hover {
+  color: #f9c000;
+}
+
+/* === Buttons and Downloads === */
+button {
+  background-color: #f9c000;
+  color: #1a1a1a;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ddb100;
+}
+
+/* === Images === */
+img {
+  border-radius: 5px;
+  transition: transform 0.2s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+/* === Container for About Page === */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* === Footer === */
+footer {
+  background-color: #626F47;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
